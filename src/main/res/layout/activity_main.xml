@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e2e2e"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="208dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/close"
+        android:text="开"
+        app:layout_constraintBottom_toTopOf="@+id/sos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="169dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="36dp"
+        android:textSize="36sp"
+        android:textColor="#CC0000"
+        android:text="sos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
